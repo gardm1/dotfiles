@@ -3,7 +3,7 @@
 My personal settings, for *vim*, *tmux*, *bashrc*, and more coming
 (not finished).
 
-Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot) with additional changes made by I myself.
+Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot) with additional changes made by myself.
 
 The setup file is used to automatically setup different dependencies that I often use.
 
