@@ -5,7 +5,7 @@ My personal settings, for *vim*, *tmux*, *bashrc*, and more coming
 
 Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot) with additional changes made by myself.
 
-The setup file is used to automatically setup different dependencies that is often use.
+The setup file is used to automatically setup different dependencies that is often used.
 
 ### How To Use
 
