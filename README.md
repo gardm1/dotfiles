@@ -7,7 +7,7 @@ Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](http
 
 ### Instant Setup
 
-By using the [setup file](https://github.com/gardm1/setup) we can automatically setup dependencies for a fresh install.
+By using the [setup file](https://github.com/gardm1/setup) we can automatically setup wanted dependencies.
 
 #### How To Use
 
