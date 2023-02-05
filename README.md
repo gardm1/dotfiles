@@ -5,11 +5,11 @@ My personal settings, for *vim*, *tmux*, *bashrc*, and more coming
 
 Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot) with additional changes made by myself.
 
-[Setup file (Automatic)](https://github.com/gardm1/setup)
+### Instant Setup
 
-The setup file is used to automatically setup different dependencies that is often used.
+By using the [setup file](https://github.com/gardm1/setup) we can automatically setup dependencies that is often used.
 
-### How To Use
+#### How To Use
 
 After retriving the setup file
 
