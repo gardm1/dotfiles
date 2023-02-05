@@ -4,6 +4,8 @@ endif
 
 set nocompatible
 
+" Hello World
+
 "####################### Vi Compatible (~/.exrc) #######################
 
 " automatically indent new lines
