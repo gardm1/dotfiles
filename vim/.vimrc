@@ -4,7 +4,7 @@ endif
 
 set nocompatible
 
-" Hello World
+" Hello World TEST CURL
 
 "####################### Vi Compatible (~/.exrc) #######################
 
