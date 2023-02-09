@@ -8,6 +8,19 @@ case $- in
       *) return;;
 esac
 
+# ---------------------- local utility functions ---------------------
+
+_have()      { type "$1" &>/dev/null; }
+_source_if() { [[ -r "$1" ]] && source "$1"; }
+
+# ----------------------- environment variables ----------------------
+#                           (also see envx)
+
+export USER="${USER:-$(whoami)}"
+export GITUSER="$USER"
+export REPOS="$HOME/Repos"
+export GHREPOS="$REPOS/github.com/$GITUSER"
+
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -30,6 +43,8 @@ shopt -s checkwinsize
 
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+
+# ----------------------------- dircolors ----------------------------
 
  #set variable identifying the chroot you work in (used in the prompt below)
 if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
