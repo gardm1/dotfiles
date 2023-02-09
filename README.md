@@ -17,7 +17,7 @@ After retriving the setup file
 bash setup [Dependencie you wish to install]
 ```
 
-You can also use the **help** command to list the different files and packages you can install
+You can also use the **help** command to list all the available packages for installation 
 
 ```bash
 bash setup help
