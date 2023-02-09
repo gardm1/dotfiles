@@ -4,8 +4,6 @@ endif
 
 set nocompatible
 
-" Hello World TEST CURL
-
 "####################### Vi Compatible (~/.exrc) #######################
 
 " automatically indent new lines
