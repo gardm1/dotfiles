@@ -15,11 +15,11 @@ If it's not an executable allready, you can make it one, by using the **chmod +x
 After retriving the setup file
 
 ```bash
-bash setup [Dependencie you wish to install]
+./setup [Dependencie you wish to install]
 ```
 
 You can also use the **help** command to list all the available packages for installation 
 
 ```bash
-bash setup help
+./setup help
 ```
