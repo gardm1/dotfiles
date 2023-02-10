@@ -30,9 +30,13 @@ set softtabstop=4
 
 set shiftwidth=4
 
+set noexpandtab
+
 set smartindent
 
 set smarttab
+
+%retab
 
 if v:version >= 800
   " stop vim from silently messing with files that it shouldn't
