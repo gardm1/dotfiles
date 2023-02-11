@@ -109,5 +109,56 @@ set ttyfast
 " allow sensing the filetype
 filetype plugin on
 
+if filereadable(expand("~/.vim/autoload/plug.vim"))
+
+    " github.com/junegunn/vim-plug
+
+    call plug#begin()
+
+    Plug 'vim-syntastic/syntastic'
+    Plug 'tomasiser/vim-code-dark'
+
+    call plug#end()
+
+    "##################### Vim-syntastic/syntastic ######################
+    set statusline+=%#warningmsg#
+    set statusline+=%{SyntasticStatuslineFlag()}
+    set statusline+=%*
+
+    ""let g:syntastic_always_populate_loc_list=1
+    ""let g:syntastic_loc_list_height=3
+    ""let g:syntastic_auto_loc_list=0
+    let g:syntastic_check_on_open=1
+    let g:syntastic_check_on_wq=1
+
+    " cpp-language settings
+    let g:syntastic_cpp_compiler="clang++"                                                                                  if filereadable(expand("/usr/bin/clang++"))
+        let g:syntastic_cpp_compiler="clang++"
+    else
+        echo "Clang not avaliable, try installing clang with setup file"
+    endif
+
+    " Reset the syntastic_mode_map setting to prevent any overrides
+    let g:syntastic_mode_map={}
+
+    " Enable Syntastic by default
+    let g:syntastic_enable_mode="active"
+
+
+    "##################### tmoasiser/vim-code-dark ######################
+
+    set enc=utf-8
+    set renderoptions=type:directx,gamma:1.5,contrast:0.5,geom:1,renmode:5,taamode:1,level:0.5
+
+    colorscheme codedark
+
+endif
+
+inoremap { {}<Esc>ha
+inoremap ( ()<Esc>ha
+inoremap [ []<Esc>ha
+inoremap " ""<Esc>ha
+inoremap ' ''<Esc>ha
+
 " high contrast
 "set background=dark
