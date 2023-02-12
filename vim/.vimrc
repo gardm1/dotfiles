@@ -132,14 +132,19 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     let g:syntastic_check_on_wq=1
 
     " cpp-language settings
-    let g:syntastic_cpp_compiler="clang++"                                                                                  if filereadable(expand("/usr/bin/clang++"))
+    if filereadable(expand("/usr/bin/clang++"))
         let g:syntastic_cpp_compiler="clang++"
     else
         echo "Clang not avaliable, try installing clang with setup file"
     endif
 
-    " Reset the syntastic_mode_map setting to prevent any overrides
-    let g:syntastic_mode_map={}
+    let g:syntastic_sh_checkers = ['shellcheck']
+
+    " Reset the syntastic_mode_map setting to prevent any overrides, 
+    " also turn off syntastic for some filetypes
+    let g:syntastic_mode_map={
+        \ "mode": "active",
+        \ "passive_filetypes": ["vim"] }
 
     " Enable Syntastic by default
     let g:syntastic_enable_mode="active"
@@ -152,6 +157,8 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
 
     colorscheme codedark
 
+else
+    colorscheme default
 endif
 
 inoremap { {}<Esc>ha
