@@ -137,8 +137,12 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     else
         echo "Clang not avaliable, try installing clang with setup file"
     endif
-
-    let g:syntastic_sh_checkers = ['shellcheck']
+    
+    if filereadable(expand("/usr/bin/shellcheck"))
+    	let g:syntastic_sh_checkers = ['shellcheck']
+	else
+		echo "ShellCheck not avaliable, try installing shellcheck with setup file"
+	endif
 
     " Reset the syntastic_mode_map setting to prevent any overrides, 
     " also turn off syntastic for some filetypes
