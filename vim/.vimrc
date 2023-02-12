@@ -173,3 +173,4 @@ inoremap ' ''<Esc>ha
 
 " high contrast
 "set background=dark
+
