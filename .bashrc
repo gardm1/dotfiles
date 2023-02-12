@@ -20,6 +20,7 @@ export USER="${USER:-$(whoami)}"
 export GITUSER="$USER"
 export REPOS="$HOME/Repos"
 export GHREPOS="$REPOS/github.com/$GITUSER"
+export PATH=$PATH:/usr/local/bin
 
 
 # don't put duplicate lines or lines starting with space in the history.
