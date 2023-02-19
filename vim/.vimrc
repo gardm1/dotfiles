@@ -132,15 +132,16 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     let g:syntastic_check_on_wq=1
 
     " cpp-language settings
-    if filereadable(expand("/usr/bin/clang++"))
-        let g:syntastic_cpp_compiler=['clang++']
+    let g:syntastic_cpp_checkers=['gcc']
+    if filereadable(expand("/usr/bin/clang++-12"))
+        let g:syntastic_cpp_compiler='clang++-12'
     else
         autocmd FileType cpp,c echo "Clang not avaliable, try installing clang with setup file"
     endif
 	
     " shell-language settings
     if filereadable(expand("/usr/bin/shellcheck"))
-        let g:syntastic_sh_checkers = ['shellcheck']
+        let g:syntastic_sh_checkers=['shellcheck']
     else
         autocmd FileType sh echo "ShellCheck not avaliable, try installing shellcheck with setup file"
     endif
