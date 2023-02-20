@@ -117,6 +117,7 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
 
     Plug 'vim-syntastic/syntastic'
     Plug 'tomasiser/vim-code-dark'
+    Plug 'ycm-core/YouCompleteMe'
 
     call plug#end()
 
@@ -125,9 +126,8 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     set statusline+=%{SyntasticStatuslineFlag()}
     set statusline+=%*
 
-    ""let g:syntastic_always_populate_loc_list=1
-    ""let g:syntastic_loc_list_height=3
-    ""let g:syntastic_auto_loc_list=0
+    let g:syntastic_always_populate_loc_list=0
+    let g:syntastic_auto_loc_list=0
     let g:syntastic_check_on_open=1
     let g:syntastic_check_on_wq=1
 
@@ -158,13 +158,23 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     let g:syntastic_enable_mode="active"
 
 
+	"##################### ycm-core/YouCompleteMe! ######################
+
+    let g:ycm_register_as_syntastic_checker=1 "default 1
+    let g:Show_diagnostics_ui=0 "default 1
+
+    let g:ycm_complete_in_comments_and_strings=0
+    let g:ycm_autoclose_preview_window_after_completion = 1
+
+    let g:ycm_add_preview_to_completeopt=1
+
     "##################### tmoasiser/vim-code-dark ######################
 
     set enc=utf-8
     set renderoptions=type:directx,gamma:1.5,contrast:0.5,geom:1,renmode:5,taamode:1,level:0.5
 
     colorscheme codedark
-
+    
 else
     colorscheme default
 endif
