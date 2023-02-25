@@ -23,3 +23,59 @@ You can also use the **help** command to list all the available packages for ins
 ```bash
 ./setup help
 ```
+
+
+# Setup X11 Forwarding
+(Windows as client-side)
+
+1. Download [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
+2. Download [Xming X Server](https://sourceforge.net/projects/xming/)
+
+3. In server-side you need to edit the **/etc/ssh/sshd_config** file
+
+```bash
+sudo vim /etc/ssh/sshd_config
+```
+Uncomment ```X11Forwarding``` to be ```X11Forwarding yes``` 
+
+4. Restart the ssh daemon
+ 
+```bash
+service sshd restart
+```
+
+5. **Optional** Create profile in Windows Terminal for spesific PuTTY profile <br />
+and change *Saved-Session-Name* and *Name-Showed-In-Windows-Terminal*
+
+```json
+{
+    "commandline": "plink.exe -load \"Saved-Session-Name\"",
+    "guid": "{141d171c-4fd9-426d-9008-8cbc4b0b05d3}",
+    "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+    "name": "Name-Showed-In-Windows-Terminal"
+}
+```
+
+# Use X11 Forwarding in ssh client
+
+1. In PuTTY go to *session*, and enter  ```username@ip-adress```
+
+2. Then go to *connection &rarr; SSH &rarr; X11* and tick the box ```Enable X11 forwarding``` <br />
+and type ```localhost:0``` in X display location
+
+3. Connect to your virtual machine through PuTTY and test if it's working correctly using *xclock*
+
+### Testing
+
+Install the graphical application *xclock* for testing. For Ubuntu or Debian, xclock is <br /> 
+included in the ```x11-apps package```, and can be installed and ran as follows:
+
+ ```bash
+sudo apt -y install x11-apps
+```
+
+```bash
+xclock
+```
+
+If *xclock* is opened, X11 forwarding is set up correctly.
