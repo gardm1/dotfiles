@@ -45,7 +45,8 @@ service sshd restart
 ```
 
 5. **Optional** Create profile in Windows Terminal for spesific PuTTY profile <br />
-and change *Saved-Session-Name* and *Name-Showed-In-Windows-Terminal*
+and change *Saved-Session-Name* and *Name-Showed-In-Windows-Terminal*. For this <br />
+you need a saved session inside PuTTY.
 
 ```json
 {
