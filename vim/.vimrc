@@ -118,6 +118,8 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     Plug 'vim-syntastic/syntastic'
     Plug 'tomasiser/vim-code-dark'
     Plug 'ycm-core/YouCompleteMe'
+	Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'junegunn/fzf.vim'
 
     call plug#end()
 
@@ -167,6 +169,19 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     let g:ycm_autoclose_preview_window_after_completion = 1
 
     let g:ycm_add_preview_to_completeopt=1
+	
+	"########################### junegunn/fzf ###########################
+
+
+    "C-p: FZF find files
+    nnoremap <silent> <C-p> :Files<CR>
+
+    let g:fzf_action = {
+        \ 'ctrl-x': 'vsplit',
+        \ 'ctrl-t': '',
+        \ 'ctrl-v': '',
+        \ 'ctrl-s': ''
+        \ }
 
     "##################### tmoasiser/vim-code-dark ######################
 
