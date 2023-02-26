@@ -30,7 +30,10 @@ You can also use the **help** command to list all the available packages for ins
 
 **X11 Forwarding is not needed, outdated and forgotten <br />
 WSL already has this set up using a better approach**
-* Refrence: [Run Linux GUI apps on the Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+
+Refrences: 
+* [Run Linux GUI apps with WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+* [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 
 ---
 
