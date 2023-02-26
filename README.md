@@ -28,6 +28,10 @@ You can also use the **help** command to list all the available packages for ins
 # Setup X11 Forwarding
 (Windows as client-side)
 
+**X11 Forwarding is not needed, outdated and forgotten**
+
+---
+
 1. Download [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 2. Download [Xming X Server](https://sourceforge.net/projects/xming/)
 
