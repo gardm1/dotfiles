@@ -40,7 +40,7 @@ Refrences:
 1. Download [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html)
 2. Download [Xming X Server](https://sourceforge.net/projects/xming/)
 
-3. In server-side you need to edit the **/etc/ssh/sshd_config** file
+3. In server-side you need to edit the '/etc/ssh/sshd_config' file
 
 ```bash
 sudo vim /etc/ssh/sshd_config
