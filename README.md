@@ -48,9 +48,9 @@ Uncomment ```X11Forwarding``` to be ```X11Forwarding yes```
 service sshd restart
 ```
 
-5. **Optional** Create profile in Windows Terminal for spesific PuTTY profile <br />
-and change *Saved-Session-Name* and *Name-Showed-In-Windows-Terminal*. For this <br />
-you need a saved session inside PuTTY.
+5. **Optional** Create profile in Windows Terminal for a spesific PuTTY profile <br />
+and change *Saved-Session-Name* and *Name-Showed-In-Windows-Terminal* in the .json <br />
+settings file. For this you need a saved PuTTY session.
 
 ```json
 {
