@@ -50,12 +50,15 @@ you need a saved session inside PuTTY.
 
 ```json
 {
-    "commandline": "plink.exe -load \"Saved-Session-Name\"",
+    "commandline": "putty.exe -load \"Saved-Session-Name\"",
     "guid": "{141d171c-4fd9-426d-9008-8cbc4b0b05d3}",
     "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
     "name": "Name-Showed-In-Windows-Terminal"
 }
 ```
+
+You can also use *plink.exe*, but plink does not give support for the arrow keys, <br />
+the escape key, nor the function keys, but acts more like an interactive session.
 
 # Use X11 Forwarding in ssh client
 
