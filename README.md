@@ -8,7 +8,7 @@ Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](http
 ### Instant Setup
 
 By using the [setup file](https://github.com/gardm1/setup) we can automatically setup wanted dependencies. <br />
-If it's not an executable allready, you can make it one, by using the **chmod +x <File_Name>** command.
+If it's not an executable allready, you can make it one, by using the ```chmod +x <File_Name>``` command.
 
 #### How To Use
 
@@ -28,7 +28,9 @@ You can also use the **help** command to list all the available packages for ins
 # Setup X11 Forwarding
 (Windows as client-side)
 
-**X11 Forwarding is not needed, outdated and forgotten**
+**X11 Forwarding is not needed, outdated and forgotten <br />
+WSL already has this set up using a better approach**
+* Refrence: [Run Linux GUI apps on the Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 
 ---
 
@@ -61,14 +63,14 @@ the .json settings file.
 }
 ```
 
-You can also use *plink.exe*, but plink does not give support for the arrow keys, <br />
-the escape key, nor the function keys, but acts more like an interactive session.
+You can also use *plink.exe*, but plink does not give support for the arrow keys, the <br />
+escape key, nor the function keys, but in return acts more like an interactive session.
 
 # Use X11 Forwarding in ssh client
 
-1. In PuTTY go to *session*, and enter  ```username@ip-adress```
+1. In PuTTY go to 'session', and enter  ```username@ip-adress```
 
-2. Then go to *connection &rarr; SSH &rarr; X11* and tick the box ```Enable X11 forwarding``` <br />
+2. Then go to 'connection &rarr; SSH &rarr; X11' and tick the box ```Enable X11 forwarding``` <br />
 and type ```localhost:0``` in X display location
 
 3. Connect to your virtual machine through PuTTY and test if it's working correctly using *xclock*
