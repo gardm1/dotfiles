@@ -13,7 +13,7 @@ if %errorlevel% neq 0 (
 
 :labela
 echo [%server%] %session% is offline
-echo IP %server% not found!
+echo IP %server% not found or not accessible!
 goto :end
 
 :labelb
