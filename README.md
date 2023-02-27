@@ -28,7 +28,7 @@ You can also use the **help** command to list all the available packages for ins
 # Setup X11 Forwarding
 (Windows as client-side)
 
-**X11 Forwarding is not needed, outdated and forgotten <br />
+**X11 Forwarding is not needed, outdated and forgotten (GLX 1.4 cap)<br />
 WSL already has this set up using a better approach**
 
 Refrences: 
