@@ -13,6 +13,8 @@ esac
 _have()      { type "$1" &>/dev/null; }
 _source_if() { [[ -r "$1" ]] && source "$1"; }
 
+if [ "$TERM" = xterm ]; then TERM=xterm-256color; fi
+
 # ----------------------- environment variables ----------------------
 #                           (also see envx)
 
