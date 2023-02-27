@@ -54,12 +54,14 @@ service sshd restart
 ```
 
 5. **Optional** Create profile in Windows Terminal for your saved PuTTY session <br />
-and change ```Saved-Session-Name``` and ```Name-Showed-In-Windows-Terminal``` in <br />
-the .json settings file.
+and add a ping service for before you try to enter your session.
+
+Add this [file](https://github.com/gardm1/dot/tree/main/PuTTY) to your home directory on Windows <br />
+and then add this profile to your Windows Terminal .json file.
 
 ```json
 {
-    "commandline": "putty.exe -load \"Saved-Session-Name\"",
+    "commandline": "\"C:\\Users\\Your-Name\\puttyping.bat\" Ip-Adress \"Your-Putty-Session\"",
     "guid": "{141d171c-4fd9-426d-9008-8cbc4b0b05d3}",
     "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
     "name": "Name-Showed-In-Windows-Terminal"
