@@ -11,13 +11,13 @@ if %errorlevel% neq 0 (
 )
 
 :labela
-echo [%server%] %session% is offline...
+echo [%server%] %session% is offline
 echo IP %server% not found!
 pause
 goto :end
 
 :labelb
-echo [%server%] %session% is online...
+echo [%server%] %session% is online
 set /p confirm="Confirm and connect to your session? (y/n) "
 if /i "%confirm%" equ "y" (
     echo Connecting to your session...
