@@ -62,7 +62,7 @@ then add this profile to your Windows Terminal .json file.
 ```json
 {
     "commandline": "\"C:\\Users\\Your-Name\\puttyping.bat\" Ip-Adress \"Your-Putty-Session\"",
-    "guid": "{[Use-Guid-Generator](https://www.guidgen.com/)}",
+    "guid": "{[Use-Guid-Generator](https://guidgenerator.com/online-guid-generator.aspx)}",
     "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
     "name": "Name-Showed-In-Windows-Terminal"
 }
