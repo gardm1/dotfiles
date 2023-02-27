@@ -22,6 +22,7 @@ set /p confirm="Confirm and connect to your session? (y/n) "
 if /i "%confirm%" equ "y" (
     echo Connecting to your session...
     putty.exe -load %session%
+    echo Session ended.
 ) else (
     echo Not connecting to session.
 )
