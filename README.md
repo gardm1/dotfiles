@@ -56,7 +56,7 @@ service sshd restart
 5. **Optional** Create profile in Windows Terminal for your saved PuTTY session <br />
 and add a ping service for before you try to enter your session.
 
-Add this [file](https://github.com/gardm1/dot/tree/main/PuTTY) to your home directory on Windows and <br />
+Add this [file](https://github.com/gardm1/dot/tree/main/PuTTY) to your Windows Home Directory and <br />
 then add this profile to your Windows Terminal .json file.
 
 ```json
