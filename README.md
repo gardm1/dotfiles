@@ -7,7 +7,7 @@ Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](http
 
 ### Instant Setup
 
-By using the [setup file](https://github.com/gardm1/setup) we can automatically setup wanted dependencies. <br />
+By using the [setup file](https://github.com/gardm1/setup) we can automatically setup wanted dependencies for Linux/Ubuntu. <br />
 If it's not an executable allready, you can make it one, by using the ```chmod +x <File_Name>``` command.
 
 #### How To Use
