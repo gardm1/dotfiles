@@ -28,7 +28,7 @@ if /i "%confirm%" equ "y" (
 goto :end
 
 :: Can also just change end with pause and exit /b 0
-:: but always forget to close the window afterwards
+:: but always forgets to close the window after
 
 :end
 echo Application will automatically close in %countdown%
