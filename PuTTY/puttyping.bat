@@ -2,7 +2,7 @@
 
 set server=%1
 set session=%2
-set countdown=5
+:: set countdown=5
 
 ping -n 1 %server% > nul
 if %errorlevel% neq 0 (
@@ -29,11 +29,14 @@ if /i "%confirm%" equ "y" (
 goto :end
 
 :: Can also just change end with pause and exit /b 0
-:: but always forgets to close the window after
+:: but always forgets to close the window after so I 
+:: added a timer also, but ended up not liking it so much
 
 :end
-echo Application will automatically close in %countdown%
-goto :loop
+:: echo Application will automatically close in %countdown%
+:: goto :loop
+pause
+exit /b 0
 
 :loop
 echo %countdown%
