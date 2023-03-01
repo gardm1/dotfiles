@@ -28,12 +28,15 @@ You can also use the **help** command to list all the available packages for ins
 # Setup X11 Forwarding
 (Windows as client-side)
 
-**X11 Forwarding is not needed, outdated and forgotten (GLX 1.4 cap)<br />
+**X11 Forwarding is not needed, outdated and forgotten (GLX 1.4 cap) <br />
 WSL already has this set up using a better approach**
 
 Refrences: 
 * [Run Linux GUI apps with WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 * [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
+
+**Or try using other solutions such as VMware 3D Graphics Acceleration, <br />
+or a VNC server (Virtual Network Computing)**
 
 ---
 
