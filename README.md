@@ -35,8 +35,7 @@ Refrences:
 * [Run Linux GUI apps with WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
 * [Install WSL](https://learn.microsoft.com/en-us/windows/wsl/install)
 
-**Or try using other solutions such as [VMware 3D Graphics Acceleration](https://docs.vmware.com/en/VMware-Workstation-Pro/17/com.vmware.ws.using.doc/GUID-F5186526-2382-4F4A-8009-3D07773A1404.html), <br />
-or a [VNC server](https://www.google.com/search?q=vnc+server&sxsrf=AJOqlzUvidsyyI4E9saqFnSNHQipD7-mXg%3A1677677038811&ei=7lH_Y5CVMZaBxc8Pif6d-Ac&ved=0ahUKEwiQxMj_6br9AhWWQPEDHQl_B38Q4dUDCA4&uact=5&oq=vnc+server&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIFCAAQgAQyBQgAEIAEMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLAToKCAAQRxDWBBCwAzoHCAAQsAMQQ0oECEEYAFCLA1inBGDaBWgCcAF4AIABP4gBe5IBATKYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp) (Virtual Network Computing)**
+**Or try using other solutions such as [VMware 3D Graphics Acceleration](https://docs.vmware.com/en/VMware-Workstation-Pro/17/com.vmware.ws.using.doc/GUID-F5186526-2382-4F4A-8009-3D07773A1404.html), or a [VNC Server](https://www.google.com/search?q=vnc+server&sxsrf=AJOqlzUvidsyyI4E9saqFnSNHQipD7-mXg%3A1677677038811&ei=7lH_Y5CVMZaBxc8Pif6d-Ac&ved=0ahUKEwiQxMj_6br9AhWWQPEDHQl_B38Q4dUDCA4&uact=5&oq=vnc+server&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzIFCAAQgAQyBQgAEIAEMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLATIICAAQgAQQywEyCAgAEIAEEMsBMggIABCABBDLAToKCAAQRxDWBBCwAzoHCAAQsAMQQ0oECEEYAFCLA1inBGDaBWgCcAF4AIABP4gBe5IBATKYAQCgAQHIAQrAAQE&sclient=gws-wiz-serp) (Virtual Network Computing). Using Vmware 3D graphics Acceleration requires you to use a operating system that supports it (e.g., Ubuntu Server does not support it). A better approach than X11 is to use WayLand whom has better overall performance and security compared to X11.**
 
 ---
 
