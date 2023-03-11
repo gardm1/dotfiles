@@ -132,16 +132,6 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
     let g:syntastic_auto_loc_list=0
     let g:syntastic_check_on_open=1
     let g:syntastic_check_on_wq=1
-
-    " c and cpp-language settings
-    let g:syntastic_cpp_checkers=["gcc"]
-    let g:syntastic_c_checkers=["gcc"]
-    if filereadable(expand("/usr/bin/clang-12"))
-        let g:syntastic_cpp_compiler="clang++-12"
-	let g:syntastic_c_compiler="clang-12"
-    else
-        autocmd FileType cpp,c echo "Clang not avaliable, try installing clang with setup file"
-    endif
 	
     " shell-language settings
     if filereadable(expand("/usr/bin/shellcheck"))
