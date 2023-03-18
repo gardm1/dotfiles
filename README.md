@@ -1,6 +1,6 @@
 # Personal Dot Files
 
-My personal settings, for *vim*, *tmux*, *bashrc*, and more coming
+My personal settings, for *vim* :grin:, *neovim* :pensive:, *tmux* :heart_eyes:, *bashrc* :house:, and more coming
 (not finished).
 
 Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot) with additional changes made by myself.
