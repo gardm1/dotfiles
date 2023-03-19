@@ -4,7 +4,7 @@ My personal dot files, with more comming! :penguin::snake::bird:
 
 -Inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot), <br />
 -[LunarVim](https://github.com/LunarVim) and his [dot files](https://github.com/LunarVim/Neovim-from-scratch), <br />
--and [jdah](https://github.com/jdah/dotfiles) and his [dot files](https://github.com/jdah/dotfiles/blob/master/.config/nvim/legacy.vim)
+-and . . .
 
 ### Instant Setup
 
