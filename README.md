@@ -1,9 +1,10 @@
 # Personal Dot Files
 
-My personal settings, for *vim* :grin:, *neovim* :pensive:, *tmux* :heart_eyes:, *bashrc* :house:, and more coming
-(not finished).
+My personal dot files, with more comming! :penguin::snake::bird:
 
-Heavily inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot) with additional changes made by myself.
+-Inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot), <br />
+-[LunarVim](https://github.com/LunarVim) and his [dot files](https://github.com/LunarVim/Neovim-from-scratch), <br />
+-and [jdah](https://github.com/jdah/dotfiles) and his [dot files](https://github.com/jdah/dotfiles/blob/master/.config/nvim/legacy.vim)
 
 ### Instant Setup
 
