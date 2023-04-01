@@ -18,6 +18,16 @@ vim.g.maplocalleader = " "
 --   term_mode = "t",
 --   command_mode = "c",
 
+-- Vim-based remaps/kepmaps
+vim.cmd [[
+    let g:fzf_action = {
+        \ 'ctrl-x': 'vsplit',
+        \ 'ctrl-t': '',
+        \ 'ctrl-v': '',
+        \ 'ctrl-s': ''
+        \ }
+]]
+
 -- Normal --
 -- Better window navigation
 keymap("n", "<C-h>", "<C-w>h", opts)
