@@ -4,7 +4,7 @@ if not status_ok then
 end
 
 configs.setup({
-  ensure_installed = { "c", "cpp", "go" }, -- one of "all" or a list of languages
+  ensure_installed = { "c", "cpp", "go", "lua" }, -- one of "all" or a list of languages
         highlight = {
                 enable = true, -- false will disable the whole extension
         },
