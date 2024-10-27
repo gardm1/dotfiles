@@ -1,11 +1,3 @@
-# Personal Dot Files
-
-My personal dot files, with more comming! :penguin::snake::bird:
-
--Inspired by [rwxrob](https://github.com/rwxrob) and his [dot files](https://github.com/rwxrob/dot), <br />
--[LunarVim](https://github.com/LunarVim) and his [dot files](https://github.com/LunarVim/Neovim-from-scratch), <br />
--and . . .
-
 ### Instant Setup
 
 By using the [setup file](https://github.com/gardm1/setup) we can automatically setup wanted dependencies for Linux/Ubuntu. <br />
